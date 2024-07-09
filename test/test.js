@@ -6,5 +6,8 @@ describe('multiply', () => {
     assert.equal(multiply(1, 1), 1);
   });
 
+  it("should return 4 when multiplying 2 and 2", () =>{
+    assert.equal(multiply(2,2), 4)
+})
 
 });
