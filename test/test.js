@@ -12,6 +12,9 @@ describe('multiply', () => {
 it(" should return 9 when multiplying 3 and 3", () =>{
     assert.equal(multiply(3,3), 9)
 })
- 
+
+it("should return 16 when multiplying 4 and 4", () =>{
+    assert.equal(multiply(4,4), 16)
+})
 
 });
