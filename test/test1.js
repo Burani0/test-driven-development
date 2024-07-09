@@ -6,5 +6,7 @@ describe('factorial', () => {
     assert.equal(factorial(1), 1);
   });
 
-
+  it('should return 2 when n is 2', () => {
+    assert.equal(factorial(2), 2);
+  });
 });
