@@ -17,6 +17,9 @@ it("should return 16 when multiplying 4 and 4", () =>{
     assert.equal(multiply(4,4), 16)
 })
 
+it("multiply 23*45 to 23*45", () =>{
+    assert.equal(multiply(23,45),23*45)
+    })
 
 
 });
