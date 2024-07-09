@@ -1,4 +1,4 @@
-function multiply(a, b) {
+export function multiply(a, b) {
     // implementation will evolve through TDD cycles
   }
   
