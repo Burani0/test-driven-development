@@ -17,4 +17,8 @@ describe('factorial', () => {
   it('should return 24 when n is 4', () => {
     assert.equal(factorial(4), 24);
   });
+
+  it('should return 120 when n is 5', () => {
+    assert.equal(factorial(5), 120);
+  });
 });
