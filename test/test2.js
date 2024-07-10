@@ -15,4 +15,8 @@ describe('fibonacci', () => {
   it('should return 8 when n is 6', () => {
     assert.equal(fibonacci(6), 8);
   });
+
+  it('should throw an error when n is negative', () => {
+    assert.throws(() => fibonacci(-1), Error, 'Input must be a non-negative integer');
+  });
 })
