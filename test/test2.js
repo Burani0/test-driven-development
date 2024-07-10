@@ -12,4 +12,7 @@ describe('fibonacci', () => {
   it('should return 1 when n is 2', () => {
     assert.equal(fibonacci(2), 1);
   });
+  it('should return 8 when n is 6', () => {
+    assert.equal(fibonacci(6), 8);
+  });
 })
